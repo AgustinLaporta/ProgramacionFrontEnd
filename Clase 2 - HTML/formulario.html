@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Nombre y Apellido</title>
+</head>
+
+<body>
+    <h1>Bienvenidos al formulario</h1>
+
+    <form action="" method="">
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="nombre">
+            <label for="nombre">Apellido</label>
+            <input type="text" name="apellido" placeholder="apellido">
+        </p>
+        <label for="duda">En el ejemplo del pdf el label de nombre tiene for="nom" y el input tiene name="nombre". No deberian ser iguales o eso es otra cosa? </label>
+        <ul>
+            <li>
+                <input type="radio" name="duda" value="no importa">
+                <label>No importa si son distintos</label>
+            </li>
+            <li>
+                <input type="radio" name="duda" value="si">
+                <label>Si, deberian ser iguales</label>
+            </li>
+            <li>
+                <input type="radio" name="duda" value="googlealo">
+                <label>Googlealo en vez de preguntarlo en un formulario que no vas a ver la respuesta</label>
+            </li>
+        </ul>
+        <label>Ejemplo de checbox</label>
+        <ul>
+            <li>
+                <input type="checkbox" name="ej[]" value="1" id="1">
+                <label for="1">No se me ocurrio</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ej[]" value="2" id="2">
+                <label for="2">Que poner aca</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ej[]" value="3" id="3">
+                <label for="3">Tampoco entiendo porque algunos de los elementos estan encerrados dentro de un <p> y otros no en el ejemplo del pdf</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ej[]" value="4" id="4">
+                <label for="4">Todas las anteriores</label>
+            </li>
+        </ul>
+        <label for="escribir">Puede usted escribir?</label>
+        <select name="escribir">
+            <option value="si">Si</option>
+            <option value="no">No</option>
+            <option value="quizas">Tal vez</option>
+        </select>
+        <p>
+            <label for="respuesta">Justifique su respuesta</label>
+            <textarea name="respuesta"></textarea>
+        </p>
+        <p>
+            Estaba re confiado de haber terminado y casi me olvido del submit
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+</body>
+
+</html>
